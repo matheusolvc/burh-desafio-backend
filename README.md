@@ -1,15 +1,15 @@
 # Desafio Backend BURH 
  
 ## Introdução 
-Nesse desafio serão analisadas suas competências no desenvolvimento de uma API de vagas de emprego. O desafio é referente à vaga Desenvolvedor(a) Backend PHP, publicada no [Burh] (https://burh.com.br/vagas/3270129695). Abaixo você encontrará todas as informações necessárias para criar e submeter seu desafio.  
+Nesse desafio serão analisadas suas competências no desenvolvimento de uma API de vagas de emprego. O desafio é referente à vaga Desenvolvedor(a) Backend PHP, publicada no [Burh](https://burh.com.br/vagas/3270129695). Abaixo você encontrará todas as informações necessárias para criar e submeter seu desafio.  
 
 Boa sorte! 🙂 
  
 ## Instruções 
 Para realizar o desafio é importante que você cumpra os itens abaixo: 
 * Possuir um Github; 
-* Realizar o [Fork] (https://docs.github.com/pt/get-started/quickstart/fork-a-repo) deste projeto e subir os commits em seu Github; 
-* Estar inscrito na [vaga] (https://burh.com.br/vagas/3270129695). 
+* Realizar o [Fork](https://docs.github.com/pt/get-started/quickstart/fork-a-repo) deste projeto e subir os commits em seu Github; 
+* Estar inscrito na [vaga](https://burh.com.br/vagas/3270129695). 
  
 ## Instruções 
 Para começar a desenvolver, o primeiro passo é criar um fork deste projeto, logo após, recomendamos que você de uma boa olhada nas principais funções e requisitos do desafio antes de começar a programar. Ao subir os commits do seu projeto busque ser o mais descritivo possível, sem subir muitas funcionalidades de uma vez. O desafio busca analisar suas competências em desenvolvimento de APIs, portanto não é necessário e nem será analisado nenhuma tela. Busque terminar primeiro os itens essenciais do desafio e só então, caso queira, você pode implementar funcionalidades adicionais ao seu projeto. 
