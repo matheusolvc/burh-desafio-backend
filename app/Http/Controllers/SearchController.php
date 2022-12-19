@@ -25,6 +25,12 @@ class SearchController extends Controller
             $user->where('cpf', $request->cpf);
         }
 
+        if(!$user) {
+            return response()->json([
+                'message'   => 'Record not found',
+            ], 404);
+        }
+
         return $user->get();
     }
 }
