@@ -27,3 +27,5 @@ Route::resource('plans', App\Http\Controllers\PlansController::class);
 Route::resource('job_types', App\Http\Controllers\JobTypesController::class);
 Route::resource('apply', App\Http\Controllers\ApplyController::class);
 Route::resource('users', App\Http\Controllers\UsersController::class);
+
+Route::post('/search', 'SearchController@filter');
