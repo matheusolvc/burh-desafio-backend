@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Plan;
 use Illuminate\Http\Request;
 
 class PlansController extends Controller
@@ -41,10 +40,10 @@ class PlansController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Plan  $plan
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Plan $plan)
+    public function show($id)
     {
         //
     }
@@ -52,10 +51,10 @@ class PlansController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Plan  $plan
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Plan $plan)
+    public function edit($id)
     {
         //
     }
@@ -64,10 +63,10 @@ class PlansController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Plan  $plan
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Plan $plan)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -75,10 +74,10 @@ class PlansController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Plan  $plan
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Plan $plan)
+    public function destroy($id)
     {
         //
     }
