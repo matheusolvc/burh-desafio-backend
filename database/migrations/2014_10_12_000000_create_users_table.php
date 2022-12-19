@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('cpf')->unique();
             $table->string('age');
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

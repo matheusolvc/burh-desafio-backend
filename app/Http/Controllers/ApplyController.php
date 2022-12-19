@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use App\Models\UserJob;
 use Illuminate\Http\Request;
 
 class ApplyController extends Controller
@@ -34,7 +36,14 @@ class ApplyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $application = new UserJob();
+        $application->fill($request->all());
+        if( $application->save() ){
+            return response()->json([
+                "message" => "Application created",
+                "data" => $application
+            ], 201);
+        }
     }
 
     /**
@@ -45,7 +54,15 @@ class ApplyController extends Controller
      */
     public function show($id)
     {
-        //
+       $userApplication = User::with('jobs')->whereIn('user_id', $id)->get();
+
+        if(!$userApplication) {
+            return response()->json([
+                'message'   => 'Record not found',
+            ], 404);
+        }
+
+        return response()->json($userApplication);
     }
 
     /**

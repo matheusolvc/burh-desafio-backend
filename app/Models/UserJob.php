@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserJob extends Model
 {
+    protected $fillable = ['job_id', 'user_id'];
 }

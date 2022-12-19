@@ -24,7 +24,7 @@ class CreateJobsTable extends Migration
             $table->double('salary')->nullable();
             $table->timestamp('start_time')->nullable();
             $table->timestamp('exit_time')->nullable();
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

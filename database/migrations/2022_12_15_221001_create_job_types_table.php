@@ -18,7 +18,7 @@ class CreateJobTypesTable extends Migration
             $table->string('type_name');
             $table->bigInteger('max_time')->nullable();
             $table->double('min_salary')->nullable();
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

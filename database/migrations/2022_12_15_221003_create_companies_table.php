@@ -20,7 +20,7 @@ class CreateCompaniesTable extends Migration
             $table->string('cnpj')->unique();
             $table->bigInteger('plans_id')->unsigned()->index()->nullable();
             $table->foreign('plans_id')->references('id')->on('plans')->onDelete('cascade');
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

@@ -17,7 +17,7 @@ class CreatePlansTable extends Migration
             $table->id();
             $table->string('name');
             $table->bigInteger('number_of_jobs')->nullable();
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 
